@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Pista - Modern Padel</title>
+    <link rel="icon" type="image/png" href="ICON/URBANPADEL.png">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>Reserva tu Pista</h1>
+            <p>Disfruta del mejor padel, ¡solo necesitas reservar tu pista!</p>
+        </div>
+    </header>
+
+    <main>
+        <section>
+                <h2>Formulario de Reserva</h2>
+                <p>Por favor, llena los siguientes datos para completar tu reserva:</p>
+                <form action="#" method="POST">
+                    <div>
+                        <label for="pista">Selecciona tu Pista:</label>
+                        <div class="pistas">
+                            <div>
+                                <img src="IMG/pista indoor.jpg" alt="Pista 1">
+                                <p>Pista 1 - Interior</p>
+                                <input type="radio" id="pista1" name="pista" value="Pista 1" required>
+                            </div>
+                            <div>
+                                <img src="IMG/pista outdoor.jpg" alt="Pista 2">
+                                <p>Pista 2 - Exterior</p>
+                                <input type="radio" id="pista2" name="pista" value="Pista 2">
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                    </div>
+
+                    <div>
+                        <label for="fecha">Fecha de Reserva:</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+
+                    <div>
+                        <label for="hora">Hora de Reserva:</label>
+                        <input type="time" id="hora" name="hora" required>
+                    </div>
+
+                    <div>
+                        <label for="jugadores">Número de Jugadores:</label>
+                        <input type="number" id="jugadores" name="jugadores" required min="1" max="4" placeholder="1-4 jugadores">
+                    </div>
+
+                    <button><a href="index.html">Reservar Pista</a></button>
+                </form>
+            </div>
+        </section>
+        <div>
+            <button><a href="inicio.html">Volver al inicio</a></button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div>
+            <p class="">© 2025 Modern Padel. Todos los derechos reservados.</p>
+            <a href="contacto.html">CONTACTA CON NOSOTROS</a>
+        </div>
+        <DIV>
+            <H4>HECHO POR: ÁLVARO CARRIZO, SERGIO GÓMEZ, LUCÍA CUESTA, DANIEL GAMONAL, DANIEL AMARAL</H4>
+        </DIV>
+    </footer>
+</body>
+</html>
