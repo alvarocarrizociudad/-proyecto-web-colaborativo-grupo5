@@ -7,6 +7,5 @@ Repositorio para proyecto colaborativo
 <h5>Lucía Cuesta</h5>
 <h5>Daniel Amaral</h5>
 <h5>Daniel Gamonal</h5>
-<p>"-------------------------"</p>
 <h2>DESCRIPCIÓN DE LA WEB:</h2>
 <p>Es una web para un servicio de alquiler de pistas de padel, que también tiene servicio de bar. La web contiene seis páginas, una página inicio, una página de contacto, una página de precios, una página de redes sociales, una página de reservas y una página de servicios. </p>
