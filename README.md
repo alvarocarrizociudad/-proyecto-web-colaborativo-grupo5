@@ -1,6 +1,6 @@
 # -proyecto-web-colaborativo-grupo5
 Repositorio para proyecto colaborativo
-<h1>PROYECTO COLABORATIVO URBAN PADEL</h1>
+<h1>PROYECTO COLABORATIVO MODERN PADEL</h1>
 <H2>MIEMBROS:</H2>
 <H5>Álvaro Carrizo</H5>
 <h5>Sergio Gómez</h5>
